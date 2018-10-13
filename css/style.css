@@ -14,7 +14,7 @@ Dark green: #28b485
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 /* root font size */
@@ -26,10 +26,10 @@ html {
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    /* font-size: 1.6rem; */
     line-height: 1.7;
     color: #777;
     padding: 3rem;
+    box-sizing: border-box;
 }
 
 .header {
