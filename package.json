@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fortunee/sunshine/issues"
   },
-  "homepage": "https://github.com/fortunee/sunshine#readme"
+  "homepage": "https://github.com/fortunee/sunshine#readme",
+  "devDependencies": {
+    "node-sass": "4.9.4"
+  }
 }
