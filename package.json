@@ -1,0 +1,19 @@
+{
+  "name": "sunshine",
+  "version": "1.0.0",
+  "description": "Landing page for sunshine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortunee/sunshine.git"
+  },
+  "author": "Fortune Ekeruo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortunee/sunshine/issues"
+  },
+  "homepage": "https://github.com/fortunee/sunshine#readme"
+}
