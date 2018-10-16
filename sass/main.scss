@@ -13,6 +13,7 @@ $primary-color-dark: #28b485;
 
 $color-dark-grey: #777;
 $color-white: #fff;
+$color-black: #000;
 
 /*
     Normalize browser defaults
@@ -163,12 +164,12 @@ body {
 
 .btn:hover {
     transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    box-shadow: 0 1rem 2rem rgba($color-black, .2);
 }
 
 .btn:active {
     transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba($color-black, .2);
 }
 
 .btn--white {
