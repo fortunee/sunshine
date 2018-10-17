@@ -37,7 +37,10 @@
   padding: 0;
   box-sizing: inherit; }
 
-/* root font size */
+/* Not a typography,
+   but a base definition on how we size our
+   entire page in rems (=1rems)
+*/
 html {
   font-size: 62.5%; }
 
