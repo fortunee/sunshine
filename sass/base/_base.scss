@@ -1,0 +1,26 @@
+/*
+    Normalize browser defaults
+    (padding, margin & box-sizing)
+*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* root font size */
+html {
+    font-size: 62.5%;
+}
+
+/* Set project-wide font definitions based on inheritance */
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-dark-grey;
+    padding: 3rem;
+    box-sizing: border-box;
+}
