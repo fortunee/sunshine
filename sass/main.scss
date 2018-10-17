@@ -1,12 +1,13 @@
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/variables';
+
+@import 'base/animations';
 @import 'base/base';
+@import 'base/typography';
+@import 'base/utils';
 
-$primary-color: #55c57a;
-$primary-color-light: #7ed56f;
-$primary-color-dark: #28b485;
-
-$color-dark-grey: #777;
-$color-white: #fff;
-$color-black: #000;
+@import 'pages/home';
 
 /*
     Normalize browser defaults
