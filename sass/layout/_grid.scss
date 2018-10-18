@@ -1,3 +1,9 @@
 .row {
-    max-width: 114rem; // 1140 / by root 10px
+    max-width: $grid-width; // 1140px / by root 10px
+    background-color: #eee;
+    margin: 0 auto;
+    
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
 }
