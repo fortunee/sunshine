@@ -93,6 +93,9 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -158,7 +161,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto;
   /*
      * ^ - class starting with col-
@@ -172,7 +174,6 @@ body {
     display: table;
     clear: both; }
   .row [class^='col-'] {
-    background-color: orangered;
     float: left; }
     .row [class^='col-']:not(:last-child) {
       margin-right: 6rem; }
