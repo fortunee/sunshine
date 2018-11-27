@@ -10,9 +10,18 @@
     box-sizing: inherit;
 }
 
-/* Not a typography,
-   but a base definition on how we size our
-   entire page in rems (=1rems)
+/* 
+    Not a typography,
+    but a base definition on how we size our
+    entire page in rems (=1rems)
+
+    it is calculated by dividing 10px (which is what we want our default size to be)
+    by 16px (which is by default 100%)
+
+    (10 / 16) = .625 which translates to 62.5%;
+
+    We're using the percentage so as not prevent our user
+    front changing the size of the page manually whenenver.
 */
 html {
     font-size: 62.5%;
