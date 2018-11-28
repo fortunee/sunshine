@@ -210,11 +210,15 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
-.feature-box__icon {
-  font-size: 6rem; }
-
-.feature-box__text {
-  font-size: 1.5rem; }
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2.5rem;
+  border-radius: .3rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  .feature-box__icon {
+    font-size: 6rem; }
 
 .header {
   height: 95vh;
