@@ -12,4 +12,5 @@
         rgba($primary-color-dark, .8)),
         url(../../img/nat-4.jpg);
     background-size: cover;
+    clip-path: polygon(0 25%, 100% -15%, 100% 75%, 0 115%);
 }
