@@ -3,3 +3,27 @@
     padding: 25rem 0;
     margin-top: -20vh;
 }
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($primary-color-light, .8),
+        rgba($primary-color-dark, .8)),
+        url(../../img/nat-4.jpg);
+    background-size: cover;
+    transform: skewY(-7deg);
+    margin-top: -10rem;
+
+
+    & > * {
+        transform: skewY(7deg);
+    }
+
+    /* Below is a version of the skew following the example in
+     * the header section and getting rid of the skew to the direct
+     * child.
+     */
+    // clip-path: polygon(0 25%, 100% 0, 100% 75%, 0 100%);
+    // margin-top: -18rem;
+}
