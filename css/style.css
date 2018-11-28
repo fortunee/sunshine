@@ -288,4 +288,11 @@ body {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../../img/nat-4.jpg);
   background-size: cover;
-  clip-path: polygon(0 25%, 100% -15%, 100% 75%, 0 115%); }
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+  /* Below is a version of the skew following the example in
+     * the header section and getting rid of the skew to the direct
+     * child.
+     */ }
+  .section-features > * {
+    transform: skewY(7deg); }
