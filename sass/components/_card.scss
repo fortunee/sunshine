@@ -26,7 +26,7 @@
             transform: rotateY(180deg);
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom, $secondary-color-light, $secondary-color-dark);
             }
         }
     }
@@ -50,17 +50,25 @@
         &--1 {
             background-image: linear-gradient(
                 to right bottom,
-                $color-secondary-light,
-                $color-secondary-dark),
+                $secondary-color-light,
+                $secondary-color-dark),
                 url(../img/nat-5.jpg);
         }
 
         &--2 {
-            background-image: url(../img/nat-5.jpg);
+            background-image: linear-gradient(
+                to right bottom,
+                $primary-color-light,
+                $primary-color-light),
+                url(../img/nat-6.jpg);
         }
 
         &--3 {
-            background-image: url(../img/nat-5.jpg);
+            background-image: linear-gradient(
+                to right bottom,
+                $tertiary-color-light,
+                $tertiary-color-dark),
+                url(../img/nat-7.jpg);
         }
     }
 
@@ -84,8 +92,8 @@
         &--1 {
             background-image: linear-gradient(
                 to right bottom,
-                rgba($color-secondary-light, .85),
-                rgba($color-secondary-dark, .85));
+                rgba($secondary-color-light, .85),
+                rgba($secondary-color-dark, .85));
         }
     }
 
