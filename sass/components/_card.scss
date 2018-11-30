@@ -26,7 +26,24 @@
             transform: rotateY(180deg);
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(
+                    to right bottom,
+                    $secondary-color-light,
+                    $secondary-color-dark);
+            }
+
+            &-2 {
+                background-image: linear-gradient(
+                    to right bottom,
+                    $primary-color-light,
+                    $primary-color-dark);
+            }
+
+            &-3 {
+                background-image: linear-gradient(
+                    to right bottom,
+                    $tertiary-color-light,
+                    $tertiary-color-dark);
             }
         }
     }
@@ -46,21 +63,31 @@
         background-blend-mode: screen;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-right-radius: .3rem;
+        border-top-left-radius: .3rem;
 
         &--1 {
             background-image: linear-gradient(
                 to right bottom,
-                $color-secondary-light,
-                $color-secondary-dark),
+                $secondary-color-light,
+                $secondary-color-dark),
                 url(../img/nat-5.jpg);
         }
 
         &--2 {
-            background-image: url(../img/nat-5.jpg);
+            background-image: linear-gradient(
+                to right bottom,
+                $primary-color-light,
+                $primary-color-light),
+                url(../img/nat-6.jpg);
         }
 
         &--3 {
-            background-image: url(../img/nat-5.jpg);
+            background-image: linear-gradient(
+                to right bottom,
+                $tertiary-color-light,
+                $tertiary-color-dark),
+                url(../img/nat-7.jpg);
         }
     }
 
@@ -84,8 +111,22 @@
         &--1 {
             background-image: linear-gradient(
                 to right bottom,
-                rgba($color-secondary-light, .85),
-                rgba($color-secondary-dark, .85));
+                rgba($secondary-color-light, .85),
+                rgba($secondary-color-dark, .85));
+        }
+
+        &--2 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($primary-color-light, .85),
+                rgba($primary-color-dark, .85));
+        }
+
+        &--3 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($tertiary-color-light, .85),
+                rgba($tertiary-color-dark, .85));
         }
     }
 
@@ -107,5 +148,30 @@
                 }
             }
         }
+    }
+
+    // Back Side Styling
+    &__cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    &__price-box {
+        text-align: center;
+        color: $color-white;
+        margin-bottom: 8rem;
+    }
+
+    &__price-only {
+        font-size: 1.4rem;
+    }
+
+    &__price-value {
+        font-size: 6rem;
+        font-weight: 100;
     }
 }
