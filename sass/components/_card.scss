@@ -26,7 +26,24 @@
             transform: rotateY(180deg);
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $secondary-color-light, $secondary-color-dark);
+                background-image: linear-gradient(
+                    to right bottom,
+                    $secondary-color-light,
+                    $secondary-color-dark);
+            }
+
+            &-2 {
+                background-image: linear-gradient(
+                    to right bottom,
+                    $primary-color-light,
+                    $primary-color-dark);
+            }
+
+            &-3 {
+                background-image: linear-gradient(
+                    to right bottom,
+                    $tertiary-color-light,
+                    $tertiary-color-dark);
             }
         }
     }
@@ -94,6 +111,20 @@
                 to right bottom,
                 rgba($secondary-color-light, .85),
                 rgba($secondary-color-dark, .85));
+        }
+
+        &--2 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($primary-color-light, .85),
+                rgba($primary-color-dark, .85));
+        }
+
+        &--3 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($tertiary-color-light, .85),
+                rgba($tertiary-color-dark, .85));
         }
     }
 
