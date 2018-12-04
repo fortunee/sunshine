@@ -379,6 +379,13 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(0.3rem) brightness(80%); }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");
@@ -455,5 +462,6 @@ body {
   margin-top: -10rem; }
 
 .section-stories {
+  position: relative;
   padding: 15rem 0;
   background-color: #f7f7f7; }
