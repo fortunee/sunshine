@@ -38,3 +38,19 @@
     position: relative;
     padding: 15rem 0;
 }
+
+.section-booking {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom,
+        $primary-color-light,
+        $primary-color-dark
+    );
+}
+
+.booking {
+    background-image: url(../img/nat-10.jpg);
+    background-size: 100%;
+    border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+    height: 50rem;
+}
