@@ -19,6 +19,10 @@
             outline: none;
             box-shadow: 0 1rem 2rem rgba($color-black, .1);
             border-bottom: .3rem $primary-color solid;
+
+            &:invalid {
+                border-bottom: .3rem #f16262 solid;
+            }
         }
 
         &::-webkit-input-placeholder {
@@ -29,4 +33,4 @@
      &__label {
 
      }
- }
+ } 
