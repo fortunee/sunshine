@@ -14,7 +14,9 @@
     }
 
     &__navigation {
-
+        border-top: .1rem solid $color-dark-grey;
+        padding-top: 2rem;
+        display: inline-block;
     }
 
     &__list {
