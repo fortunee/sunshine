@@ -1,11 +1,18 @@
 .navigation {
 
     &__checkbox {
-
+        display: none;
     }
 
     &__button {
-
+        background-color: $color-white;
+        height: 7rem;
+        width: 7rem;
+        position: fixed;
+        top: 6rem;
+        right: 6rem;
+        border-radius: 50%;
+        z-index: 1999;
     }
 
     &__background {
@@ -15,7 +22,8 @@
         position: fixed;
         top: 6.5rem;
         right: 6.5rem;
-        background-image: radial-gradient($primary-color-light, $primary-color-dark); 
+        background-image: radial-gradient($primary-color-light, $primary-color-dark);
+        z-index: 999; 
     }
 
     &__nav {
