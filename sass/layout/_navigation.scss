@@ -23,7 +23,7 @@
         position: fixed;
         top: 6.5rem;
         right: 6.5rem;
-        background-image: radial-gradien t($primary-color-light, $primary-color-dark);
+        background-image: radial-gradient($primary-color-light, $primary-color-dark);
         z-index: 999;
         transition: transform .8s;
     }
