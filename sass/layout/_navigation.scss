@@ -82,6 +82,7 @@
         }
     }
 
+    // Navigation functionality
     &__checkbox:checked ~ &__background {
         transform: scale(80);
     }
@@ -89,5 +90,29 @@
     &__checkbox:checked ~ &__nav {
         opacity: 1;
         width: 100%;
+    }
+
+    // Navigation Icon
+    &__icon {
+        position: relative;
+
+        &,
+        &::before,
+        &::after {
+            width: 3rem;
+            height: .2rem;
+            background-color: $color-dark-grey-3;
+            display: inline-block;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+        }
+
+        &::before { top: -1rem }
+        &::after { top: 1rem }
     }
 }
