@@ -9,10 +9,30 @@
 
     &__content {
         width: 75%;
-        height: 50rem;
         background-color: $color-white;
         box-shadow: 0 1rem 4rem rgba($color-black, .2);
         border-radius: .3rem;
+        display: table;
         @include absolutePositionCenter;
+    }
+
+    &__left {
+        width: 33.33333%;
+        display: table-cell;
+    }
+
+    &__right {
+        width: 66.666667%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    &__img {
+        width: 100%;
+        display: block;
+    }
+
+    &__text {
+
     }
 }
