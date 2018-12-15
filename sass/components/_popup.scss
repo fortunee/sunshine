@@ -28,15 +28,20 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
-    }
 
+    }
+    
     &__img {
         width: 100%;
         display: block;
     }
-
+    
     &__text {
         font-size: 1.4rem;
         margin-bottom: 4rem;
+        
+        columns: 2;
+        column-gap: 4rem; // default is 1em and 1em is the font-size of the current element which is 1.4rem (14px)
+        column-rule: 1px solid $color-grey-light-2;
     }
 }

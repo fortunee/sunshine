@@ -504,7 +504,10 @@ body {
     display: block; }
   .popup__text {
     font-size: 1.4rem;
-    margin-bottom: 4rem; }
+    margin-bottom: 4rem;
+    columns: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid #eee; }
 
 .header {
   height: 95vh;
