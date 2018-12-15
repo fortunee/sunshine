@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba($color-black, .7);
+    background-color: rgba($color-black, .8);
     z-index: 99999;
 
     &__content {
@@ -12,9 +12,6 @@
         height: 50rem;
         background-color: $color-white;
         box-shadow: 0 1rem 4rem rgba($color-black, .2);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        @include absolutePositionCenter;
     }
 }
