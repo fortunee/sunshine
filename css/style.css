@@ -481,7 +481,8 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 99999;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  transition: all .3s; }
   .popup__content {
     width: 75%;
     background-color: #fff;
@@ -511,6 +512,9 @@ body {
     column-gap: 4rem;
     column-rule: 1px solid #eee;
     hyphens: auto; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
 
 .header {
   height: 95vh;
