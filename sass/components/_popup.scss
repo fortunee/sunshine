@@ -56,4 +56,22 @@
         opacity: 1;
         visibility: visible;
     }
+
+    &__close {
+        &:link,
+        &:visited {
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+            text-decoration: none;
+            color: $color-dark-grey;
+            font-size: 3rem;
+            display: inline-block;
+            line-height: 1;
+        }
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
 }
