@@ -1,3 +1,18 @@
+/*
+    0 - 600px:      Mobile
+    600 - 900px:    Tablet portrait
+    900 - 1200px:   Tablet landscape
+    
+    [1200 - 1800px] Desktop first approach (Normal style apply here)
+
+    1800px:         Large Desktop
+
+    $breakpoint args:
+        - mobile
+        - tab-port
+        - tab-land
+        - large-desktop
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;

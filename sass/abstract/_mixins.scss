@@ -12,3 +12,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+// Media Query Manager
+/*
+    0 - 600px:      Mobile
+    600 - 900px:    Tablet portrait
+    900 - 1200px:   Tablet landscape
+    
+    [1200 - 1800px] Desktop first approach (Normal style apply here)
+
+    1800px:         Large Desktop
+
+    $breakpoint args:
+        - mobile
+        - tab-port
+        - tab-land
+        - large-desktop
+*/
+
+
+@mixin respond($breakpoint) {
+    
+}
