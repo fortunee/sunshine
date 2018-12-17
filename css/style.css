@@ -1,3 +1,20 @@
+/*
+    0 - 600px:      Mobile
+    600 - 900px:    Tablet portrait
+    900 - 1200px:   Tablet landscape
+    
+    [1200 - 1800px] Desktop first approach (Normal style apply here)
+
+    1800px:         Large Desktop
+
+    $breakpoint args:
+        - mobile
+        - tab-port
+        - tab-land
+        - large-desktop
+
+    1em = 16px; (16px is the browser default root font-size)
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -52,6 +69,15 @@
 */
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 52.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
