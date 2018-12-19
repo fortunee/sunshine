@@ -66,29 +66,34 @@
 
     We're using the percentage so as not prevent our user
     front changing the size of the page manually especially by zooming.
+
+    MEDIA QUERY ORDER: Base > Typography > Layout > Grid > Page > Component
 */
 html {
   font-size: 62.5%; }
   @media (max-width: 75em) {
     html {
-      font-size: 52.25%; } }
+      font-size: 56.25%; } }
   @media (max-width: 56.25em) {
     html {
-      font-size: 50; } }
+      font-size: 50%; } }
   @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 3rem; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
 
 /* Set project-wide font definitions based on inheritance */
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
-  padding: 3rem; }
+  color: #777; }
 
 .heading-primary {
   color: #fff;
