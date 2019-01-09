@@ -626,6 +626,9 @@ body {
   .popup__left {
     width: 33.33333%;
     display: table-cell; }
+    @media (max-width: 56.25em) {
+      .popup__left {
+        display: none; } }
   .popup__right {
     width: 66.666667%;
     display: table-cell;
@@ -641,6 +644,9 @@ body {
     column-gap: 4rem;
     column-rule: 1px solid #eee;
     hyphens: auto; }
+    @media (max-width: 56.25em) {
+      .popup__text {
+        columns: 1; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
