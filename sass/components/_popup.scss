@@ -58,6 +58,10 @@
         column-rule: 1px solid $color-grey-light-2;
 
         hyphens: auto;
+
+        @include respond(tab-port) {
+            columns: 1;
+        }
     }
 
     // Modal open state
