@@ -343,7 +343,7 @@ body {
   @media (max-width: 56.25em) {
     .card {
       height: auto;
-      border-radius: 3rem;
+      border-radius: .3rem;
       background-color: #fff;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
       .card__side {
