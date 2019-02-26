@@ -6,7 +6,8 @@
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "concat:css": "concat -o css/style.concat.css css/font-icons.css css/style.comp.css"
+    "concat:css": "concat -o css/style.concat.css css/font-icons.css css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.concat.css -o css/style.prefix.css"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   },
   "homepage": "https://github.com/fortunee/sunshine#readme",
   "devDependencies": {
+    "autoprefixer": "^9.4.9",
     "concat": "^1.0.3",
-    "node-sass": "4.9.4"
+    "node-sass": "4.9.4",
+    "postcss-cli": "^6.1.2"
   }
 }
