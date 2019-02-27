@@ -88,6 +88,10 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
+
 /* Set project-wide font definitions based on inheritance */
 body {
   font-family: "Lato", sans-serif;
