@@ -256,7 +256,12 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   height: 52rem;
-  position: relative; }
+  position: relative;
+  /**
+     * Not using the mixin import line below because
+     * I needed to use the hover condition
+     * so I'm using the direct media query for tab portrait
+     */ }
   .card__side {
     height: 52rem;
     transition: all .8s ease;
@@ -345,7 +350,7 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     .card {
       height: auto;
       border-radius: .3rem;
